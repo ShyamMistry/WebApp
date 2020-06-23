@@ -41,8 +41,8 @@ namespace WebApp.Pages
                         }
                         else
                         {
-                            ID.Text = info.CategoryID.ToString();
-                            Name.Text = info.CategoryName;
+                            ID.Text = info.TeamID.ToString();
+                            Name.Text = info.TeamName;
                         }
                     }
                     else
